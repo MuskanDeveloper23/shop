@@ -1,2 +1,0 @@
-# shadow
-Describes various shadows.
