@@ -1,0 +1,245 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.lamp{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lamp ul{
+    display:flex;
+   padding-top:10px;
+   
+    background: #E3E6f3;
+   list-style: none;
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    background:#333333;
+    height:25px;
+    width:63rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header li{
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+}
+.header li a{
+    text-decoration: none;
+    color:#fff;
+}
+.header li a:hover{
+    color:#fff;
+    border-radius: 3px;
+
+}
+.cont{
+height:150px;
+background-color:rgb(192, 192, 219);
+padding-top:10px;
+padding:20px;
+margin:20px;
+}
+.container img p{
+    padding:10px;
+    margin:10px;
+}
+h5{
+    text-align: center;
+}
+.plan button{
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin:10px;
+    padding: 10px;
+    width:80px;
+    color:black;
+}
+.plan button a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.modern{
+   
+    padding:10px;
+    margin:10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.plan img:hover{
+    background: rgb(3, 3, 146);
+}
+.notes{
+   
+    height: 300px;
+    width: 300px;
+   background: rgb(6, 53, 71);
+    margin:10px;
+    padding: 10px;
+    box-shadow: 10px;
+   border-radius: 20px;
+}
+
+.plan img{
+padding-left:20px;
+text-align: center;
+padding:10px;
+margin:10px;
+height:290px;
+width:290px;
+box-shadow: #333333;
+border-radius: 20px;
+
+
+}
+
+  
+
+.money{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.lamp ul li a{
+    padding:9px;
+    font-size: 17px;
+    text-decoration: none;
+    
+
+}
+.lamp ul li a:hover{
+    color:rgb(30, 227, 241);
+}
+.lamp h2{
+    position: center;
+    padding-top:10px;
+    padding-left:40px;
+
+}
+.view{
+    padding: 10px;
+    background: #E3E6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
+    flex-wrap: wrap;
+
+}
+
+
+
+/* footer */
+.container{
+    max-width:1170px;
+    margin:auto;
+    background-color:rgb(53, 52, 54);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:25rem;
+    width:63rem;
+    padding: 20px;
+    margin:10px;
+}
+
+ul{
+    list-style:none;
+    margin:10px;
+    padding:30px;
+
+}
+.app{
+    
+}
+.logo{
+    width:150px;
+    height:60px;
+    position:right;
+    padding-top:10px;
+    padding-bottom: 10px;
+   
+}
+.btn{
+    border-radius: 8px;
+    color:orangered;
+   padding-top:5px;
+   padding-bottom: 5px;
+   padding-left:5px;
+   padding-right:5px;
+   border:1px;
+
+}
+button{
+    size:30px;
+    padding-top:10px;
+    padding:10px;
+    margin:40px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.main:hover{
+    color:rgb(100, 100, 218);
+}
+.gra:hover{
+    color:pink;
+}
+.my:hover{
+    color:red;
+}
+.hope:hover{
+    color:skyblue;
+}
+.rope:hover{
+    color:red;
+}
+.btn p{
+    color:#fff;
+}
+.statuslinks  main{
+    background:skyblue;
+    border-radius: 50px;
+}
+.btn:hover{
+    color:gray;
+}
+.footer-col ul h4{
+    color:orangered;
+}
+ul a{
+    color:#fff;
+}
+a:hover{
+    color:whitesmoke;
+}
+.statuslinks a{
+     font-size:20px;
+     padding-top:10px;
+     padding:10px;
+}
+.statuslinks i{
+    padding-top:20px;
+}
+
+
+ul li{
+    padding:5px;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+

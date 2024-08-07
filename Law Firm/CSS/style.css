@@ -1,0 +1,349 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.lamp{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lamp ul{
+    display:flex;
+   padding-top:10px;
+   
+    background: #E3E6f3;
+   list-style: none;
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    background:#333333;
+    height:25px;
+    width:63rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header li{
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+}
+.header li a{
+    text-decoration: none;
+    color:#fff;
+}
+.header li a:hover{
+    color:#fff;
+    border-radius: 3px;
+
+}
+.cont{
+height:150px;
+background-color:rgb(192, 192, 219);
+padding-top:10px;
+padding:20px;
+margin:20px;
+}
+.container img p{
+    padding:10px;
+    margin:10px;
+}
+h5{
+    text-align: center;
+}
+
+  
+
+.money{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.lamp ul li a{
+    padding:9px;
+    font-size: 17px;
+    text-decoration: none;
+    
+
+}
+.lamp ul li a:hover{
+    color:rgb(30, 227, 241);
+}
+.lamp h2{
+    position: center;
+    padding-top:10px;
+    padding-left:40px;
+
+}
+.view{
+    padding: 10px;
+    background: #E3E6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
+    flex-wrap: wrap;
+
+}
+/* home page */
+#project1{
+    text-align: center;
+}
+
+#project1 .Pro-container{
+    display: flex;
+    padding: 5px;
+    margin:9px;
+    text-align: left;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-right:20px;
+    margin-top: 5px;
+
+}
+
+#project1 .pro2{
+    width:26%;
+   max-height: 330px;
+    min-width:200px;
+    padding:10px 12px;
+    border:1px solid #cce7d0;
+    border-radius: 40px;
+    transition: 0.5s ease;
+    border-color:rgb(212, 155, 70);
+    position: relative;
+   text-align: justify;
+}
+
+#project1 .pro2:hover{
+   box-shadow: 0 1.2rem 2rem 0.4rem  rgb(124, 141, 141); 
+   
+}
+#project1 .pro2 img{
+    width:100%;
+    height:170px;
+    border-radius: 20px;
+}
+#project1 .pro2.des3{
+    text-align: start;
+    padding: 10px 0;
+}
+#project1 .pro2.des3 span{
+   color: pink;
+}
+
+
+
+ .h5, p{
+    padding-top:7px;
+    color:black;
+    font-size:14px;
+    font-weight: 100;
+    position:left 23px;
+}
+#project1 .pro2.des3 h4{
+    padding-top:7px;
+    font-size:12px;
+    font-weight: 700;
+    color:#E3E6f3;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url("D:/muskan2/shadow/images/shirt/O3.jpg");
+    background-size:cover;
+    width:100%;
+    height:50vh;
+    background-position: center;
+}
+#banner h4{
+    color:#fff;
+}
+#banner h2{
+    color:#fff;
+    font-size:30px;
+    padding: 10px 0;  
+}
+#banner h2 span{
+    color: #ef3636;
+}
+.cart,main{
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color:gray;
+    color:rgb(247, 222, 226);
+    border:1px solid black;
+    text-align: center;
+    bottom: 50px;
+    left:110px;
+    position: relative;
+}
+.main{
+    text-align: center;
+}
+#navbar i .nai{
+    color:black;
+
+}
+
+#project1 .h2{
+     position: relative;
+}
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+    background-image:url("D:/muskan2/shadow/images/B1.jpg");
+    background-size:cover;
+    min-width:450px;
+    height:50vh;
+    background-position: center;
+    padding: 20px;
+   
+    
+}
+.vote .roy .nue{
+    height:700px;
+    border-radius: 20px;
+}
+
+
+/* footer */
+.container{
+    max-width:1170px;
+    margin:auto;
+    background-color:rgb(53, 52, 54);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:25rem;
+    width:63rem;
+    padding: 20px;
+    margin:10px;
+}
+
+ul{
+    list-style:none;
+    margin:10px;
+    padding:30px;
+
+}
+
+.logo{
+    width:150px;
+    height:60px;
+    position:right;
+    padding-top:10px;
+    padding-bottom: 10px;
+   
+}
+.btn{
+    border-radius: 8px;
+    color:orangered;
+   padding-top:5px;
+   padding-bottom: 5px;
+   padding-left:5px;
+   padding-right:5px;
+   border:1px;
+
+}
+button{
+    size:30px;
+    padding-top:10px;
+    padding:10px;
+    margin:40px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.main:hover{
+    color:rgb(100, 100, 218);
+}
+.gra:hover{
+    color:pink;
+}
+.my:hover{
+    color:red;
+}
+.hope:hover{
+    color:skyblue;
+}
+.rope:hover{
+    color:red;
+}
+.btn p{
+    color:#fff;
+}
+.statuslinks  main{
+    background:skyblue;
+    border-radius: 50px;
+}
+.btn:hover{
+    color:gray;
+}
+.footer-col ul h4{
+    color:orangered;
+}
+ul a{
+    color:#fff;
+}
+a:hover{
+    color:whitesmoke;
+}
+.statuslinks a{
+     font-size:20px;
+     padding-top:10px;
+     padding:10px;
+}
+.statuslinks i{
+    padding-top:20px;
+}
+
+
+ul li{
+    padding:5px;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+/* home */
+.vote .nue{
+    padding-left:130px;
+    margin-left:130px;
+    border-radius: 20px;
+    height:500px;
+    width: 200px;
+
+}
+.vote .roy img{
+height:500px;
+width:600px;
+    padding-top: 30px;
+   text-shadow: rgb(122, 122, 192);
+   
+
+}
+
+.vote .roy h3{
+    padding-top: 10px;
+    font-size:35px;
+  color: ;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(53, 52, 54);
+}

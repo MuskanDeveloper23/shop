@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    background-color:antiquewhite
+}
+Z*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  font-family: 'Ubuntu',sans-serif;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul{
+    display:flex;
+    list-style-type:none;
+    color:white;
+    align-items: center;
+    background-color:black;
+}
+.brand img{
+    padding:0 0px;
+    
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: border;
+    font-size: 1.3rem;
+}
+.container{
+    min-height:150vh;
+    max-width:300vw;
+    width:80vw;
+  background-color: black;
+  color: white;
+  font-family: 'varela round', sans-serif;;
+  border-radius: 12px;
+  padding: 34px;
+  height:150px;
+  background-image: url("D:/muskan2/shadow/images/bg.jpg");
+}
+.bottom{
+    position: sticky;
+    height:100px;
+    background-color: black;
+    color:white;
+    bottom: 0%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin: 12px 0;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myprogressBar{
+    width:80vw;
+    cursor: pointer;
+}
+.songItemscontainer{
+    margin-top: 5px;
+
+}
+.songItems {
+    height: 40px; 
+    display: flex;
+    background-color: white;
+    width:50%;
+    color: black;
+    margin: 0 12px;
+    padding: 0 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+
+
+.songItems img{
+    width: 30px;
+    margin:  0 23px;
+    position: center;
+    border-radius: 55px;
+
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'varela round', sans-serif;
+}
+.songinfo img{
+    opacity: 1;
+    transition: opacity is ease-in;
+}
+
+.timestamp{
+    margin: 0 23px;
+   
+}
+.timestamp{ 
+    cursor: pointer;
+}
+/* add amime class to animate */
+  .anime{
+      animation : rotateplayer 3s linear infinite;
+  }
